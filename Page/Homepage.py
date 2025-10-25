@@ -61,8 +61,8 @@ def hero_section():
 def about_section():
     st.header("Tentang Proyek")
     st.write("""
-    Website ini dikembangkan untuk membantu petani, peneliti, dan mahasiswa dalam mendeteksi serta 
-    mengklasifikasi penyakit pada daun jagung menggunakan teknologi **Computer Vision** dan **Deep Learning**. 
+    Website ini dirancang untuk mendukung petani, peneliti, dan mahasiswa dalam proses pendeteksian 
+    serta pengklasifikasian penyakit pada daun jagung dengan memanfaatkan teknologi **Computer Vision** dan **Deep Learning**. 
     """)
 
 # ===========================
@@ -107,8 +107,8 @@ def features_section():
 def how_to_use():
     st.header("Cara Menggunakan Website")
     st.write("""
-    Website ini memiliki dua fitur utama untuk membantu dalam mengenali penyakit pada daun jagung 
-    menggunakan teknologi **Artificial Intelligence (AI)**, yaitu *Deteksi Gambar* dan *Klasifikasi Gambar*.
+   Website ini menyediakan dua fitur utama yang dirancang untuk membantu mengenali penyakit pada daun jagung 
+    dengan memanfaatkan teknologi **Artificial Intelligence (AI)**, yaitu *Deteksi Gambar* dan *Klasifikasi Gambar*.
     """)
 
     # Langkah umum
@@ -116,8 +116,8 @@ def how_to_use():
     st.markdown("""
     1. **Buka Sidebar** di sisi kiri layar.
     2. Pilih salah satu fitur utama:
-        - 🟢 **Deteksi Gambar** — untuk mendeteksi area daun yang terinfeksi penyakit.
-        - 🟡 **Klasifikasi Gambar** — untuk mengenali jenis penyakit berdasarkan gambar daun jagung.
+        - 🟢 **Deteksi Gambar** — digunakan untuk mendeteksi area daun yang terinfeksi penyakit.
+        - 🟡 **Klasifikasi Gambar** — digunakan untuk mengenali jenis penyakit berdasarkan gambar daun jagung.
     3. Ikuti panduan penggunaan di bawah sesuai fitur yang anda pilih.
     """)
 
@@ -125,8 +125,6 @@ def how_to_use():
     st.divider()
     st.subheader("🟢 Deteksi Gambar")
     st.markdown("""
-    Fitur ini digunakan untuk **mendeteksi area pada daun jagung yang menunjukkan gejala penyakit**.
-    
     **Langkah-langkah:**
     1. Klik menu *Object Detection* di sidebar.
     2. Unggah gambar daun jagung dalam format '.jpeg',`.jpg` atau `.png`.
@@ -138,8 +136,6 @@ def how_to_use():
     st.divider()
     st.subheader("🟡 Klasifikasi Gambar")
     st.markdown("""
-    Fitur ini digunakan untuk **mengidentifikasi jenis penyakit daun jagung** menggunakan model klasifikasi citra.
-
     **Langkah-langkah:**
     1. Klik menu *Klasifikasi Gambar* di sidebar.
     2. Unggah gambar daun jagung yang ingin dianalisis.
