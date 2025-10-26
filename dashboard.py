@@ -64,7 +64,7 @@ Homepage = st.Page(
 )
 Object_detection_page = st.Page(
     "Page/Deteksi_Gambar.py",
-    title="Deteksi Gambar",
+    title="Deteksi Objek",
     icon=":material/search:",
 )
 Klassification_page = st.Page(
